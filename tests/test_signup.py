@@ -46,7 +46,7 @@ def test_signup_flow(setup):
     # Step 5: Click Sign-in
     page.click_signin()
     time.sleep(3)
-    screenshot.capture(driver, "05_home_page")
+    screenshot.capture(driver, "04_home_page")
 
     assert driver.current_url != BASE_URL
 
